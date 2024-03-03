@@ -1,0 +1,6 @@
+venv/**
+data/**
+Test_output/**
+trained_model
+.idea/**
+__pycache__/**
