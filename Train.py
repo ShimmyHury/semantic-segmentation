@@ -70,7 +70,7 @@ def save_images(target, prediction, n_classes, folder_name, img_name):
 
 if __name__ == '__main__':
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description="Just an example",
+    parser = argparse.ArgumentParser(description="Training Arguments",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("-d", "--data_dir", default='./data/CamVid/', help="Path to training data directory")
     parser.add_argument("-m", "--model_path", default='./trained_model', help="Path to model (save/load)")
